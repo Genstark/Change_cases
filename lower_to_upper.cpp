@@ -5,7 +5,7 @@ int main(){
     std::cout<<"Enter in lower case: ";
     std::cin>>name;
     
-    for(int i=0; name[i]!=0 ; i++){
+    for(int i=0; name[i]!=0; i++){
         name[i] = (name[i]>='a' && name[i]<='z')?(name[i]-32):name[i];
     }
 
